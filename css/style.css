@@ -1,0 +1,14 @@
+.container{
+    position: relative;
+    width: 95%;
+    height: 100%;
+    margin: 0  auto;
+}
+.weui_cell_hd img{
+    width: 100px;
+    margin-right:10px;
+    display:block
+}
+.weui_article img{
+    width:100%;
+}
