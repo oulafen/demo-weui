@@ -4,7 +4,6 @@
     height: 100%;
     margin: 0 auto;
     max-width: 740px;
-    padding: 20px;
 }
 .weui_cell_hd img{
     width: 100px;
@@ -14,7 +13,18 @@
 .weui_article img{
     width:100%;
 }
+.weui_cell_bd p.title{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 16rem;
+}
 .weui_cell_bd .desc{
     font-size: 14px;
     color: #888;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
